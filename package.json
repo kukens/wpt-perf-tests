@@ -1,0 +1,46 @@
+{
+  "name": "wpt",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "clean": "node ./bin/clean",
+    "dev": "npm run clean && tsc -w | webpack -w | nodemon ./bin/www --ignore global/"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "compression": "^1.6.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "mongoose": "^4.6.7",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.0.35",
+    "@types/chart.js": "0.0.8",
+    "@types/compression": "0.0.33",
+    "@types/mongoose": "^4.6.2",
+    "@types/node": "^6.0.46",
+    "@types/react": "^0.14.46",
+    "@types/react-dom": "^0.14.18",
+    "@types/react-router": "^2.0.39",
+    "bluebird": "^3.4.6",
+    "chart.js": "^2.4.0",
+    "del": "^2.2.2",
+    "file-loader": "^0.9.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "nodemon": "^1.11.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^3.0.0",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.1.0",
+    "typescript": "^2.0.8",
+    "webpack": "^1.13.3"
+  }
+}

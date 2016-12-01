@@ -1,5 +1,5 @@
 ﻿import * as React from "react";
-import * as Promise from 'Bluebird';
+import * as Promise from 'bluebird';
 import WebUtils from "../helpers/WebUtils";
 
 
